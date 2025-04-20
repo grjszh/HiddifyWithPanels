@@ -1,6 +1,9 @@
 name: Build
 
 on:
+  push:
+    branches:
+      - main  # 你可以指定你想要监听的分支
   workflow_call:
     inputs:
       upload-artifact:
