@@ -8,7 +8,7 @@ For those who know, they know. For those who don’t, take your time to learn.
 ## Join the TG Group Chat
 
 Feel free to join the V2Hiddify TG group chat for discussions and support: [V2Hiddify TG Group](https://t.me/V2Hiidify).
-
+  
 ## Features
 - [x] **OSS Support**: Automatic domain switching.
 - [x] **Login with Panel Account**: Allows users to log in using panel accounts.
