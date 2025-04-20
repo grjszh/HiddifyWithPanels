@@ -1,9 +1,8 @@
 name: Release
 on:
   push:
-    tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+'
-      - 'v[0-9]+.[0-9]+.[0-9]+.*'
+    branches:
+      - main  # 你可以指定你想要监听的分支
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
